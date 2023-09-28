@@ -4,12 +4,12 @@ números e realize a soma deles e a
 média entre eles. e mostre os
 resultados.
 '''
+soma = 0
+num = int(input("DIGITE A QUANTIDADE DE VEZES: "))
+for x in range(num):
+    n = int(input("DIGITE UM NUMERO: "))
 
-num1 = float(input("DIGITE UM NUMERO: "))
-num2 = float(input("DIGITE UM NUMERO: "))
-num3 = float(input("DIGITE UM NUMERO: "))
-num4 = float(input("DIGITE UM NUMERO: "))
+    soma = soma + n
+    media = soma/num
 
-media = (num1+num2+num3+num4)/4
-
-print("A MEDIA ENTRE ELES É: {}".format(media))
+print ("A SOMA DEU: {} e média DEU {} ".format(soma,media))
