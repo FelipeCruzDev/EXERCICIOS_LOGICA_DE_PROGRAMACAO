@@ -10,6 +10,6 @@ for x in range(num):
     n = int(input("DIGITE UM NUMERO: "))
 
     soma = soma + n
-    media = soma/num
+media = soma/num
 
 print ("A SOMA DEU: {} e média DEU {} ".format(soma,media))
